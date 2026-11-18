@@ -115,3 +115,35 @@ footer p {
     border-top: 4px solid #333;
     border-bottom:  4px solid #333;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    cursor: pointer;
+}
